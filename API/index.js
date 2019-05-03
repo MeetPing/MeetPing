@@ -10,6 +10,7 @@ const validKeys = [
 // When you need to check
     if (validKeys.includes(userKey)) {
     console.log('A Valid key')
+    // put all code regarding the Ping API inside here
     } else {
     console.error('invalid key')
     }
