@@ -10,7 +10,13 @@ const validKeys = [
 // When you need to check
     if (validKeys.includes(userKey)) {
     console.log('A Valid key')
-    // put all code regarding the Ping API inside here
+    function getResponse(command) {
+        switch (command) {
+          case 'hello ping': return 'Hello user';
+          case 'Hi': return 'Hello!';
+          default: return 'Please type a valid command';
+        }
+      }
     } else {
     console.error('invalid key')
     }
