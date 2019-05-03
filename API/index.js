@@ -1,5 +1,5 @@
 const validKeys = [
-    "key1","key2"
+    "H72@vhVJu26$RvJ*w4D@rY%WRt!He2X_3e_dsg^n","p&DvwYV9qWq?MAdED@9tQtbEbtxgxUxprVq!p-C#"
     ];
     
     let userKey;
