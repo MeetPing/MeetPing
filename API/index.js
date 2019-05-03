@@ -6,7 +6,7 @@ function key(x) {
     const apikey = x;
    }
 // Api usage
-if (apikey.value == validKeys) {
+if (apikey.value = validKeys) {
 console.log('A Valid key')
 } else {
 console.log('invaid key')
