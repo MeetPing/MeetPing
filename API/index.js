@@ -1,4 +1,3 @@
-var Pingres = "";
 const validKeys = [
     "H72@vhVJu26$RvJ*w4D@rY%WRt!He2X_3e_dsg^n","p&DvwYV9qWq?MAdED@9tQtbEbtxgxUxprVq!p-C#"
     ];
@@ -19,7 +18,7 @@ const validKeys = [
     }
     
  
- let Pingres;
+    let Pingres;
 function resp(y) {
     var Pingres = y;
     console.log(Pingres)
