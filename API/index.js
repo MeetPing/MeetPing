@@ -20,7 +20,7 @@ const validKeys = [
  
     let Pingres;
 function resp(y) {
-    var Pingres = y;
+    Pingres = y;
     console.log(Pingres)
 }
 
