@@ -1,5 +1,5 @@
 // Logging in on your API key
 function key(x) {
-    var apikey = x;
+    const apikey = x;
    }
 // Api usage
