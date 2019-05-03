@@ -1,2 +1,2 @@
-const key = require('./key.js')
-const ping = require('./api.js')
+const key = ('./key.js')
+const ping = ('./api.js')
