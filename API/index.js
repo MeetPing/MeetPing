@@ -1,3 +1,4 @@
+var Pingres = "";
 const validKeys = [
     "H72@vhVJu26$RvJ*w4D@rY%WRt!He2X_3e_dsg^n","p&DvwYV9qWq?MAdED@9tQtbEbtxgxUxprVq!p-C#"
     ];
@@ -18,9 +19,14 @@ const validKeys = [
     }
     
 
+function resp(y) {
+    var Pingres = y;
+    console.log(y)
+}
+
     function getResponse(command) {
         switch (command) {
-          case 'hello ping': return console.log('Hello user');
-          case 'Hi': return console.log('Hello!');
-          default: return console.log('Please type a valid command');
+          case 'hello ping': return  resp("Hello user");
+          case 'Hi': return resp('Hello!');
+          default: return resp('Bad request');
         }}
