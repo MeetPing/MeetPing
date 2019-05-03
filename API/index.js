@@ -20,7 +20,7 @@ const validKeys = [
 
     function getResponse(command) {
         switch (command) {
-          case 'hello ping': return 'Hello user';
-          case 'Hi': return 'Hello!';
-          default: return 'Please type a valid command';
+          case 'hello ping': return console.log('Hello user');
+          case 'Hi': return console.log('Hello!');
+          default: return console.log('Please type a valid command');
         }}
