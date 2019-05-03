@@ -18,12 +18,82 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
-    <link rel="stylesheet" href="/MeetPing/assets/css/style.css?v=3a32bdcc3ff47af4c57419fff9bf756ec12a4fdb">
+    <link rel="stylesheet" href="https://meetping.github.io//MeetPing/assets/css/style.css?v=3a32bdcc3ff47af4c57419fff9bf756ec12a4fdb">
+    <link rel="stylesheet" href="styles.css">
+   
+    <script src="MeetPing.js"></script>
   </head>
   <body>
     <section class="page-header">
       <h1 class="project-name">MeetPing</h1>
       <h2 class="project-tagline">i am gonna build a Robot named Ping voiced by me</h2>
+     
     </section>
 MeetPing
-</body></html>
+
+<!-- Trigger/Open The Modal -->
+<button class="ApiKeyButton" id="myBtn">Get API key <br> NOW</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Api Key</h2>
+    </div>
+    <div class="modal-body">
+      <p id="UserAPikeygen">H72@vhVJu26$RvJ*w4D@rY%WRt!He2X_3e_dsg^n</p>
+    </div>
+  </div>
+
+</div>
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Api key</h2>
+    </div>
+    <div class="modal-body">
+      <p id="UserAPikeygen">H72@vhVJu26$RvJ*w4D@rY%WRt!He2X_3e_dsg^n</p>
+    </div>
+  </div>
+
+</div>
+
+
+</body>
+
+<script>
+  // Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
+  </script></html>
