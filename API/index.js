@@ -10,15 +10,17 @@ const validKeys = [
 // When you need to check
     if (validKeys.includes(userKey)) {
     console.log('A Valid key')
-      }
+   
+      
     } else {
     console.error('invalid key')
     }
     }
     
-     function getResponse(command) {
+
+    function getResponse(command) {
         switch (command) {
           case 'hello ping': return 'Hello user';
           case 'Hi': return 'Hello!';
           default: return 'Please type a valid command';
-        }
+        }}
