@@ -21,7 +21,7 @@ const validKeys = [
 
 function resp(y) {
     var Pingres = y;
-    console.log(y)
+    console.log(Pingres)
 }
 
     function getResponse(command) {
