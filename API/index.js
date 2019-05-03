@@ -18,7 +18,8 @@ const validKeys = [
     }
     }
     
-
+ let Pingres;
+ 
 function resp(y) {
     var Pingres = y;
     console.log(Pingres)
